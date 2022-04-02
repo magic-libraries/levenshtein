@@ -35,6 +35,9 @@ levenshtein('a', 'b')
 ##### 0.0.1
 first release
 
+##### 0.0.2
+update dependencies
+
 [npm-image]: https://img.shields.io/npm/v/@magic-libraries/levenshtein.svg
 [npm-url]: https://www.npmjs.com/package/@magic-libraries/levenshtein
 [travis-image]: https://img.shields.io/travis/com/magic-libraries/levenshtein/master
