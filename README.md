@@ -13,11 +13,13 @@ levenshtein string distance calculation for
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 
 #### <a name="install"></a>installation
+
 ```bash
 npm install --save-exact @magic-libraries/levenshtein
 ```
 
 #### <a name="usage"></a>usage
+
 in a page/component, just use the lib.levenshtein function.
 
 ```javascript
@@ -33,9 +35,15 @@ levenshtein('a', 'b')
 #### changelog
 
 ##### 0.0.1
+
 first release
 
 ##### 0.0.2
+
+update dependencies
+
+##### 0.0.3
+
 update dependencies
 
 [npm-image]: https://img.shields.io/npm/v/@magic-libraries/levenshtein.svg
