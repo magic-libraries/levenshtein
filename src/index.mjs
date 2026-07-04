@@ -63,7 +63,7 @@ export const levenshtein = (a = '', b = '') => {
 
   const len = vector.length - 1
 
-  for (; x < lb - 3; ) {
+  for (; x < lb - 3;) {
     const bx0 = code(b, offset + (d0 = x))
     const bx1 = code(b, offset + (d1 = x + 1))
     const bx2 = code(b, offset + (d2 = x + 2))
@@ -85,7 +85,7 @@ export const levenshtein = (a = '', b = '') => {
     }
   }
 
-  for (; x < lb; ) {
+  for (; x < lb;) {
     const bx0 = code(b, offset + (d0 = x))
     dd = ++x
     for (let y = 0; y < len; y += 2) {
